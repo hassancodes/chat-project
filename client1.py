@@ -10,3 +10,5 @@ print("socket is connect with: " + HOST)
 message = input("enter the message: ")
 client1_sock.send(message.encode('utf8'))
 print("message send")
+
+print(client1_sock.recv(1024).decode())
