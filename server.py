@@ -6,17 +6,17 @@ address = (HOST,PORT)
 
 sock.bind(address)
 print("Socket is binded")
-while True: 
-    sock.listen(10)
-    print("listening for connections....")
 
-    connection1, addr1 = sock.accept()
-    print("connected with ", addr1)
-    connection2, addr2 = sock.accept()
-    print("connected with ", addr2)
-    print(connection1)
+sock.listen(10)
+print("listening for connections....")
 
+connection1, addr1 = sock.accept()
+print("connected with ", addr1)
+connection2, addr2 = sock.accept()
+print("connected with ", addr2)
+print(connection1)
 
+while True:
 
     # data received by client1
     data1 = connection1.recv(1024)
