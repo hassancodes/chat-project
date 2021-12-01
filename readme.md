@@ -1,1 +1,2 @@
-Send message to anywhere in the world
+Simple Sockets in Python
+# Python to send text messages between two clients.
