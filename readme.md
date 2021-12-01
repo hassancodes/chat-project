@@ -1,2 +1,2 @@
-Simple Sockets in Python
-# Python to send text messages between two clients.
+# Simple Sockets in Python
+* Python to send text messages between two clients.
